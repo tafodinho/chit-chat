@@ -4,6 +4,7 @@
     <nav>
         <ul class="nav navbar-nav navbar-right">
         <% if logged_in?%>
+        <li><%= link_to "Create Posts", new_micropost_path %></li>
             <li><%= link_to "Logout", logout_path, method: :delete %></li>
         <% else %>
             <li><%= link_to "Register", signup_path %></li>
