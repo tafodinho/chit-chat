@@ -1,3 +1,5 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
 
 $gray-medium-light: #eaeaea;
 
@@ -8,7 +10,9 @@ $gray-medium-light: #eaeaea;
 }
 
 /* forms */
-
+.main {
+    margin-top: 70px;
+}
 input, textarea, select, .uneditable-input {
     border: 1px solid #bbb;
     width: 100%;
@@ -34,4 +38,20 @@ input {
         // color: $state-danger-text;
         color: red;
     }
+}
+
+#logo {
+    float: left;
+    margin-right: 10px;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
 }
