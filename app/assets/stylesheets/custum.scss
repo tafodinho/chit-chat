@@ -55,3 +55,17 @@ input {
     color: #fff;
     text-decoration: none;
 }
+
+.checkbox {
+    margin-top: -10px;
+    margin-bottom: 10px;
+    span {
+      margin-left: 20px;
+      font-weight: normal;
+    }
+  }
+  
+  #session_remember_me {
+    width: auto;
+    margin-left: 0;
+  }
