@@ -7,7 +7,7 @@
     <%= content_tag :div, value, class: "flash #{key}" %>
   <% end %>
 
-  <%= form_for(:micropost, url: microposts_path) do |f| %>
+  <%= form_for(@micropost) do |f| %>
     
     <%= f.label :content %>
     <%= f.text_area :content %>

@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       flash[:success] = "Successful Login"
       log_in user
       params[:session][:remember_me] == '1' ? remember(user) : forget(user)
-      redirect_to user
+      redirect_to microposts_path
     else 
       flash.now[:danger] = "Invalid login"
       render 'new'
