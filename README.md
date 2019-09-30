@@ -9,5 +9,5 @@ Ruby on rails, HTML, CSS
 
 ## Contributors
 
-* **Joshua Tafang**  - [Profile](https://github.com/tafodinho)
+* **Tafang Joshua**  - [Profile](https://github.com/tafodinho)
 
