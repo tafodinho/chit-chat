@@ -1,26 +1,13 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
 # chit-chat
-A rails web application where members gossip about non members and only members can view the gossip 
+A rails web application where members gossip about non members and only members can view the post.
+full description of the project can be found [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/authentication) 
+
+## Built With
+
+Ruby on rails, HTML, CSS
+
+## Contributors
+
+* **Tafang Joshua**  - [Profile](https://github.com/tafodinho)
+

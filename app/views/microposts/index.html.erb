@@ -1,0 +1,12 @@
+<h2>Posts</h2>
+<% @microposts.each do |post| %>
+    <p>
+        <%= post.content %>
+        <% if logged_in? %>
+            <p>
+                by <span><%= post.user.name %></span>
+            </p>
+        <% end %>
+    </p>
+    <hr>
+<% end %>
