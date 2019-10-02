@@ -1,16 +1,14 @@
 class SessionsController < ApplicationController
-  def new
-  end
 
   def create
     user = User.find_by(email: params[:session][:email].downcase)
     if user && user.authenticate(params[:session][:password])
-      flash[:success] = "Successful Login"
+      flash[:success] = 'Successful Login'
       log_in user
       params[:session][:remember_me] == '1' ? remember(user) : forget(user)
       redirect_to microposts_path
-    else 
-      flash.now[:danger] = "Invalid login"
+    else
+      flash.now[:danger] = 'Invalid login'
       render 'new'
     end
   end
