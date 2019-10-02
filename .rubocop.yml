@@ -30,7 +30,11 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Style/MutableConstant:
   Enabled: false
-
+Style/GuardClause:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+  
 Layout/AlignHash:
   EnforcedColonStyle: key
 Layout/ExtraSpacing:
